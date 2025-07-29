@@ -5,8 +5,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ... rest of your code
-
 app.post('/bfhl', (req, res) => {
     const { data } = req.body;
 
